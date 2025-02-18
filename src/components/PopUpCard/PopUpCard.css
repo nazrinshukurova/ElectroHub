@@ -1,0 +1,51 @@
+.popUp {
+  position: fixed;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  width: 70%;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1001;
+  transition: opacity 0.3s ease;
+  border-radius: 19px;
+}
+.popUp:hover {
+  opacity: 1;
+}
+
+.productImageSecond {
+  width: fit-content;
+  height: 350px;
+}
+
+.popUpRight {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 17px;
+  padding: 30px;
+}
+
+
+
+.description {
+  font-size: 14px;
+  overflow-y: hidden;
+}
+
+.description span {
+  font-size: 17px;
+  font-weight: 600;
+}
+.closeButton {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+}
