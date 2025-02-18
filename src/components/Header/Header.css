@@ -23,7 +23,11 @@
   gap: 20px;
   list-style: none;
   color: var(--tw-text-opacity);
+}
+
+.navbar-list li:hover{
   cursor: pointer;
+  color: blue;
 }
 
 .search {

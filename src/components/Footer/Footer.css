@@ -1,0 +1,27 @@
+:root {
+  --tw-bg-opacity: rgb(21 94 117);
+  --color: white;
+}
+
+.showMoreProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  border-radius: 16px;
+  background-color: var(--tw-bg-opacity);
+  color: var(--color);
+  margin: 30px;
+ 
+}
+
+.showMoreProduct:hover{
+    cursor: pointer;
+    background-color: rgba(21, 95, 117, 0.823);
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
